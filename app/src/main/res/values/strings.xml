@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">UTXO</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="desc_menu_1">Rick and Morty adalah serial animasi yang menggabungkan unsur-unsur fiksi ilmiah, petualangan luar angkasa, dan komedi hitam.</string>
+    <string name="desc_menu_2">Acara ini dikenal karena humor satirnya yang tajam dan kritis terhadap berbagai aspek kehidupan, ilmu pengetahuan, dan budaya pop.</string>
+    <string name="desc_menu_3">Rick and Morty tidak hanya menawarkan hiburan ringan, tetapi juga menghadirkan cerita-cerita yang kompleks dan multidimensional.</string>
+    <string name="desc_menu_4">Rick and Morty adalah sebuah serial animasi televisi yang diciptakan oleh Justin Roiland dan Dan Harmon, Seiring dengan unsur komedi.</string>
+    <string name="learn_now">Riky Sekarang</string>
+    <string name="gambar_kurikulum_global">Gambar kurikulum Global</string>
+    <string name="gambar_belajar_fleksibel">Gambar belajar fleksibel</string>
+    <string name="gambar_code_reviewer">Gambar code reviewer</string>
+    <string name="gambar_alumni_terpercaya">Gambar alumni terpercaya</string>
+    <string name="gambar_dicoding">Gambar dicoding</string>
+    <string name="title_menu_1">Riky and Morty</string>
+    <string name="title_menu_2">Humor Satir dan Kritis</string>
+    <string name="title_menu_3">Cerita yang Multidimensional</string>
+    <string name="title_menu_4">Riky and Morty tahun ini</string>
+
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_skill">Skill</string>
+    <string name="skilldetail">Skill Detail</string>
+    <string name="textskilldetail">Coba INi</string>
+</resources>

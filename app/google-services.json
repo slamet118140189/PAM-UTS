@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1022393503051",
+    "project_id": "affable-radio-395005",
+    "storage_bucket": "affable-radio-395005.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1022393503051:android:29d71c3145841c7b5aecce",
+        "android_client_info": {
+          "package_name": "com.example.utxo"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyByyAoZNDJlC1Dem0GK8AF1g3LrmByovsU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

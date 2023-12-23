@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav"
+    app:startDestination="@+id/nav_skill">
+
+    <fragment
+        android:id="@+id/home"
+        android:name="com.example.utxo.HomeFragment"
+        android:label="@string/menu_skill"
+        tools:layout="@layout/fragment_home">
+    </fragment>
+
+    <fragment
+        android:id="@+id/profile"
+        android:name="com.example.utxo.ProfileFragment"
+        android:label="@string/menu_skill"
+        tools:layout="@layout/fragment_profile">
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_skill"
+        android:name="com.example.utxo.HomeFragment"
+        android:label="@string/menu_skill"
+        tools:layout="@layout/fragment_home">
+        <action
+            android:id="@+id/action_nav_skill_to_nav_skilldetail2"
+            app:destination="@id/nav_skilldetail"/>
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_skilldetail"
+        android:name="com.example.utxo.DetailFragment"
+        android:label="@string/skilldetail"
+        tools:layout="@layout/fragment_detail" >
+        <argument
+            android:name="extra_name"
+            app:argType="string" />
+        <action
+            android:id="@+id/action_nav_skilldetail_to_nav_skill"
+            app:destination="@id/nav_skill" />
+    </fragment>
+
+</navigation>
