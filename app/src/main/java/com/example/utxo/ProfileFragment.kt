@@ -60,7 +60,7 @@ class ProfileFragment : Fragment() {
                         image.setImageDrawable(drawable)
 
                         // Menampilkan informasi di TextView
-                        binding.usernameTextView.text = "Username Aplikasi: $usernameApp"
+                        binding.usernameTextView.text = "Username: $usernameApp"
                         binding.githubUsernameTextView.text = "GitHub: $usernameGitHub"
                         binding.nikTextView.text = "NIK: $nik"
                         binding.emailTextView.text = "Email: $email"
